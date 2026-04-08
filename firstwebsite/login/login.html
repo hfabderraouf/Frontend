@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../style.css">
+    <title> register & login </title>
+
+</head>
+
+<body>
+
+    <section id="header">
+        
+        
+        <div >
+
+            <ul id="login">
+                
+                <li><a href="../Home.html"> <img class="logo" src="../image/logo.png" alt="NikeLogo">  </a> 
+                <li> <a class="active "  href="login.html">Login</a></li>
+            </ul>
+            
+        </div>
+           
+        
+        
+        
+        
+        <div>
+            <ul id="navbar">
+
+                <li> <a href="../Home.html">Home</a></li>
+                <li> <a href="../Shop.html">Shop</a></li>
+                <li> <a href="../Blog.html">Blog</a></li>
+                <li> <a href="../About.html">About</a></li>
+                <li> <a href="../Contact.html">Contact</a></li>
+                <li> <a href="##"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+                
+            </ul>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+    <div class="container" id="signupform" style="display: block;">
+
+        <h1 class="form-title">register </h1>
+
+
+        <form method="" action="">
+
+            <div class="input-group">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="first name" id="fname" placeholder="first name">
+                <label for="fname"> first name </label>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name=" lname" id="lname" placeholder="last name">
+                <label for="lname"> last name </label>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" name=" email" id="email" placeholder="E mail">
+                <label for="email">E mail </label>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" id="p-word" name="pword" placeholder="password">
+                <label for="pword">password</label>
+            </div>
+
+            <input type="submit" class="btn" value="Sing up">
+
+        </form>
+
+          <div class="sing">
+            <span style="font-weight: bold; font-size: 16px;"> You don't have account ?  </span>
+            <a href="##" id="singinbtn" style="text-decoration: none; color: #670010; font-weight: bold;" >Sing In </a>
+        </div>
+
+        <p class="contacts">
+             -------------- contacts --------------
+        </p>
+
+        <div class="icon">
+            <a href="https://github.com/hfabderraouf?tab=repositories" style="color: black;"><i
+                    class="fa-brands fa-github"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" style="color: #EA4335;"><i
+                    class="fa-solid fa-envelope"></i></a>
+            <a href="https://web.facebook.com/?locale=fr_FR&_rdc=1&_rdr#" style="color: #1877F2;"><i
+                    class="fa-brands fa-facebook"></i></a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------->
+
+
+
+    <div class="container" id="signinform" style="display: none;">
+
+        <h1 class="form-title">Sing In </h1>
+
+
+        <form method="" action="">
+
+            <div class="input-group">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" name=" email" id="email" placeholder="E mail">
+                <label for="email">E mail </label>
+            </div>
+
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" id="p-word" name="pword" placeholder="password">
+                <label for="pword">password</label>
+            </div>
+
+            <p class="recover">
+                <a href="##" >Recover Password</a>
+            </p>
+
+            <input type="submit" class="btn" value="Sing In">
+
+        </form>
+
+
+        <div class="sing">
+            <span style="font-weight: bold; font-size: 16px;"> You don't have account ?  </span>
+            <a id="singupbtn" href="##" style="text-decoration: none; color: #670010; font-weight: bold;" >Sing Up </a>
+        </div>
+
+        <p class="contacts">
+           -------------- contacts --------------
+        </p>
+
+        <div class="icon">
+            <a href="https://github.com/hfabderraouf?tab=repositories" style="color: black;"><i
+                    class="fa-brands fa-github"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" style="color: #EA4335;"><i
+                    class="fa-solid fa-envelope"></i></a>
+            <a href="https://web.facebook.com/?locale=fr_FR&_rdc=1&_rdr#" style="color: #1877F2;"><i
+                    class="fa-brands fa-facebook"></i></a>
+        </div>
+
+
+    </div>
+
+    
+<script src="login.js"></script>
+</body>
+
+</html>

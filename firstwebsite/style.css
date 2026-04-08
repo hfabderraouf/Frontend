@@ -63,13 +63,37 @@ body{
     left: 0;
 
 }
-#header .logo {
+
+#header .logo { 
     height: 30px ;
     min-height: 15px;
     min-width: 15px;
     width: 30px ;
 
 }
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login li{
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+
+}
+
+#login li a {
+    text-decoration: none;
+    font-size: 16px ;
+    font-weight: 600;
+    color: #1c1c1c;
+    transition: 0.3s ease;
+
+}
+
 #navbar{
     display: flex;
     justify-content: center;
@@ -84,7 +108,6 @@ body{
 
 }
 
-
 #navbar li a {
     text-decoration: none;
     font-size: 16px ;
@@ -95,13 +118,17 @@ body{
 }
 
 #navbar li a:hover ,
-#navbar li a.active {
+#navbar li a.active,
+#login li .login:hover ,
+#login li .active {
     color: #670010;
 
 }
 
 #navbar li a.active::after,
-#navbar li a:hover::after {
+#navbar li a:hover::after ,
+#login li .active::after ,
+#login li .login:hover::after{
     content: '';
     position: absolute;
     background-color: #670010;
@@ -120,6 +147,7 @@ body{
     align-items: center;
     background-color: #f5f5f5;
 }
+
 .hero .photo{
     display: flex;
     justify-content: center;
@@ -220,8 +248,6 @@ body{
     margin-bottom: 10px ;
 }
 
-
-
 #product1{
     
     text-align: center;
@@ -238,6 +264,7 @@ body{
     margin: 15px 0;
     transition: 0.2s  ease;
 }
+
 #product1 .pro:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
 
@@ -296,6 +323,7 @@ body{
     
     
 }
+
  #product1 .pro .des h4{
     padding-top: 7px;
     font-size: 20px;
@@ -306,6 +334,7 @@ body{
     align-items: center;
 
  }
+
 #product1 .pro .des .cart  {
 
     width: 35px;
@@ -328,12 +357,18 @@ body{
     box-shadow: 0px 0px 30px 10 rgba(0, 0, 0, 0.02);
    
 }
+
 #product1 .pro .des .cart:hover  {
     box-shadow: 0px 0px 50px 10 rgba(0, 0, 0, 0.15);
 }
 
-
-
 #product1 .pro .des .cart i{
     color: #1c1c1c;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }

@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    Garamond,
+    "poppins" sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.container {
+  background: #f5f5f5;
+  width: 450px;
+  padding: 1.5rem;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 1, 0.9);
+}
+
+form {
+  margin: 0 2rem;
+}
+
+.form-title {
+    color: #670010;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.3rem;
+  text-align: center;
+  margin-bottom: 0.4rem;
+}
+
+input {
+  color: #1c1c1c;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-left: 1.5rem;
+  font-size: 15px;
+}
+
+.input-group {
+  padding: 3% 0;
+  position: relative;
+}
+
+.input-group i {
+  position: absolute;
+}
+
+inputf:focus {
+  background-color: transparent;
+  border-bottom: 2px solid hsl(327, 90%, 28%);
+  outline: transparent;
+}
+
+input::placeholder {
+  color: transparent;
+}
+
+label {
+  color: #757575;
+  position: relative;
+  left: 1.2em;
+  top: -1.3em;
+  cursor: auto;
+  transition: 0.3s ease all;
+}
+
+input:focus ~ label,
+input:not(:placeholder-shown) ~ label {
+  top: -3em;
+  color: #670010;
+  font-size: 1rem;
+}
+
+.recover {
+  text-align: center;
+  margin: 10px 0;
+  position: relative;
+  bottom: 30px;
+}
+
+.recover a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+.recover a:hover {
+  color: #670010;
+  text-decoration: underline;
+}
+
+.btn {
+  cursor: pointer;
+  color: #670010;
+  border:0;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 8px 0;
+  border-radius: 5px;
+  width: 100%;
+  transition: 0.9s ease;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.06);
+}
+.btn:hover {
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contacts {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon i {
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border: 2px solide #dfe9f5;
+  margin: 0 15px;
+  transition: 0.5s ease;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.06);
+}
+
+.icon i:hover {
+  font-size: 1.6rem;
+  border: 2px solid #670010;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.15);
+}
+
+.sing {
+  margin: 15px auto;
+  text-align: center;
+}
+.sing span {
+  margin-right: 10px;
+}
